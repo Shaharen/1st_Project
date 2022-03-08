@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>One Page Wonder - Start Bootstrap Template</title>
+    
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="assets/css/게시판메인.css" rel="stylesheet" />
+    <style>
+      .py-5{
+
+       
+        bottom: 0px !important;
+        width: 100%;
+      }
+
+
+    </style>
+
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container px-5">
+        <a class="navbar-brand" href="main.html" style="font-size: 50px; margin-right: 80px;">A'DIC</a>
+        <a class="navbar-brand" href="검색페이지.html"style="font-size: 20px; margin-right: 20px;"> 주류 검색 </a>
+        <a class="navbar-brand" href="주류검색 페이지.html"style="font-size: 20px; margin-right: 20px;"> 주류 정보 </a>
+        <a class="navbar-brand" href="게시판.html"style="font-size: 20px;"> 커뮤니티 </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="main.html">Logout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mypage_main.html">Mypage</a>
+            </li>
+          </ul>
+          <!-- Search -->
+        
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+
+    <!-- Content section 1-->
+    <section>
+        <div class="board_wrap">
+            <div class="board_title">
+                <strong>커뮤니티</strong>
+                <div class="bt_wrap">
+                  <a href="게시판.html" class="on" style="float: right;">목록</a>
+                 
+              </div>
+                <p>게시판을 통하여 사용자와 자유로운 소통을 하는공간입니다.</p>
+                
+            </div>
+            <div class="board_view_wrap">
+                <div class="board_view">
+                    <div class="title">
+                        글 제목이 들어갑니다.
+                    </div>
+                    <div class="info">
+                        <dl>
+                            <dt>번호</dt>
+                            <dd>1</dd>
+                        </dl>
+                        <dl>
+                            <dt>글쓴이</dt>
+                            <dd>홍길동</dd>
+                        </dl>
+                        <dl>
+                            <dt>작성일</dt>
+                            <dd>2022.02.14</dd>
+                        </dl>
+                     
+                    </div>
+                    <div class="cont">
+                        글 내용이 들어갑니다@@<br>
+                        글 내용이 들어갑니다@@<br>
+                        글 내용이 들어갑니다@@<br>
+                        글 내용이 들어갑니다@@<br>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!--디스코스 이용한 댓글 기능-->
+        <p>
+          <div id="disqus_thread"></div>
+          <script>
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://web1-qw0nt3uqsu.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+    <!-- Footer-->
+    <footer class="py-5 bg-black">
+      <div class="container px-5">
+        <p class="m-0 text-center text-white small">
+          Copyright &copy; Your Website 2022
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+  
+  </body>
+</html>
