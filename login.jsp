@@ -56,7 +56,7 @@
   		text-decoration: none;
   		text-shadow: 0px 1px 0px #b23e35;
 	}
-    </style>
+    </style> 
   </head>
   <body id="page-top">
     <!-- Navigation-->
