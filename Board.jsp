@@ -3,7 +3,7 @@
 <%@page import="com.smhrd.model.A_BoardDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%
+<% 
 //게시판에 글 출력을 위한 객체 생성
 A_BoardDAO dao = new A_BoardDAO();
 ArrayList<A_BoardDTO> boardlist = dao.Output();
